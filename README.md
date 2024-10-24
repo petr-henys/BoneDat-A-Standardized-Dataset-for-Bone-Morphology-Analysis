@@ -13,15 +13,8 @@ This repository contains Python scripts and documentation for the BoneDat projec
 
 This README provides information on setting up the environment, running the scripts, and understanding the project workflow.
 ```
-## Project Structure
+## Project Data Structure
 
-├── MI_metric_evaluation.py
-├── generate_patient_meshes.py
-├── mesh_quality.py
-├── antropometric_analysis.py
-├── collect_intensity_in_voxels.py
-├── build_template.py
-├── registration.py
 ├── additional_data
 │   ├── ref_angles.xlsx
 │   ├── I_voxels.npy
