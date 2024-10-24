@@ -1,0 +1,13 @@
+pyvista
+SimpleITK
+antspyx
+openpyxl
+tqdm
+scikit-learn
+openturns
+scikit-image
+pyacvd
+trimesh
+gmsh
+pygmsh
+meshio
