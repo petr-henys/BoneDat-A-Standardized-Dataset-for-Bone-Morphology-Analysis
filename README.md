@@ -1,6 +1,5 @@
 Sure, here is a well-structured `readme.md` for the repository containing your Python scripts, incorporating best practices for clarity and reproducibility:
 
-```
 # BoneDat: A Comprehensive Database of Standardized Bone Morphology for In-silico Analyses
 
 ## Overview
@@ -13,7 +12,7 @@ This repository contains Python scripts and documentation for the BoneDat projec
 - Anthropometric analysis
 
 This README provides information on setting up the environment, running the scripts, and understanding the project workflow.
-
+```
 ## Project Structure
 
 ├── MI_metric_evaluation.py
@@ -43,7 +42,6 @@ This README provides information on setting up the environment, running the scri
             ├── registrations
             └── fields
 
-This tree-like structure is much clearer and more informative, giving a better visual representation of how the files and directories are organized within the project.
 ```
 
 ## Dependencies
