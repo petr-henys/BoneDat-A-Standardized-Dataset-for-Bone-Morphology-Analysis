@@ -3,12 +3,12 @@ Sure, here is a well-structured `readme.md` for the repository containing your P
 # BoneDat: A Comprehensive Database of Standardized Bone Morphology for In-silico Analyses
 
 ## Overview
-This repository contains Python scripts and documentation for the BoneDat project, a comprehensive database of standardized bone morphology data derived from 250 clinical lumbopelvic CT scans. The scripts cover various aspects of the project, including:
+This repository contains Python scripts and documentation for the BoneDat project, a comprehensive database of standardized bone morphology data derived from 278 clinical lumbopelvic CT scans. The scripts cover various aspects of the project, including:
 
 - Template building
 - Image registration (rigid and deformable)
 - Registration quality assessment
-- Mesh generation and analysis
+- Mesh generation and quality assessment
 - Anthropometric analysis
 
 This README provides information on setting up the environment, running the scripts, and understanding the project workflow.
@@ -39,11 +39,11 @@ This README provides information on setting up the environment, running the scri
     └── BoneDat
         ├── raw
         └── derived
+            ├── geometries
             ├── registrations
-            └── fields
+            └── segmentations
 
 ```
-
 ## Dependencies
 
 - Python 3.11+ (recommended)
