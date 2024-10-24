@@ -21,7 +21,7 @@ The script in this repository supports the generation of volumetric meshes from 
 
 ### Registration and Shape Normalization
 
-Bone shape normalization ensures that all samples are aligned to a reference shape, which is critical for comparative morphology studies. Using the ANTs library, the following transformation steps are applied:
+Bone shape normalization ensures all samples are aligned to a reference shape, which is critical for comparative morphology studies. Using the ANTs library, the following transformation steps are applied:
 - **Mass Center Alignment**
 - **Rigid Transformation**
 - **Affine Transformation**
@@ -48,11 +48,9 @@ The process was validated through:
 ## Repository Structure
 
 ```plaintext
-- manuscript.pdf              # Scientific article
 - mesh-generation-pipeline.md # Documentation for the mesh generation process
 - registration-error-analysis.md # Analysis of registration errors and validation
 - registration-pipeline-docs.md # Detailed documentation on the shape normalization and registration pipeline
-- mesher.py                   # Python script for mesh generation and processing
 ```
 
 ### Instructions for Reproducing Results
@@ -71,13 +69,13 @@ The process was validated through:
    pip install -r requirements.txt
    ```
 
-3. **Run the Mesh Generation Pipeline**:
-   Use the provided `mesher.py` script to generate tetrahedral meshes for the dataset:
+3. **Run the python scripts**:
+   Use the provided scripts to replicate the article results:
    ```bash
-   python mesher.py
+   python script.py
    ```
 
-4. **View the Generated Meshes**:
+4. **View the spatial results**:
    The meshes can be visualized using Paraview or MITK. Detailed instructions are provided in the `registration-pipeline-docs.md` file.
 
 ## License
