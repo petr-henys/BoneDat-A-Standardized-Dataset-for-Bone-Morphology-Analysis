@@ -1,5 +1,3 @@
-Sure, here is a well-structured `readme.md` for the repository containing your Python scripts, incorporating best practices for clarity and reproducibility:
-
 # BoneDat: A Comprehensive Database of Standardized Bone Morphology for In-silico Analyses
 
 ## Overview
