@@ -1,7 +1,7 @@
 # BoneDat: A Comprehensive Database of Standardized Bone Morphology for In-silico Analyses
 
 ## Overview
-This repository contains Python scripts and documentation for the BoneDat project, a comprehensive database of standardized bone morphology data derived from 278 clinical lumbopelvic CT scans. The scripts cover various aspects of the project, including:
+This repository contains Python scripts and documentation for the [BoneDat project](https://zenodo.org/uploads/13970522), a comprehensive database of standardized bone morphology data derived from 278 clinical lumbopelvic CT scans. The scripts cover various aspects of the project, including:
 
 - Template building
 - Image registration (rigid and deformable)
