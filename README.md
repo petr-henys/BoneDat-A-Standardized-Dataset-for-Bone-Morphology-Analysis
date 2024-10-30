@@ -14,18 +14,9 @@ This README provides information on setting up the environment, running the scri
 ## Project Data Structure
 
 ├── additional_data
-│   ├── ref_angles.xlsx
-│   ├── I_voxels.npy
-│   ├── mesh_quality.vtk
-│   ├── ref_distances.xlsx
-│   ├── registration_metrics.xlsx
-│   ├── points4distances.npy
-│   └── points4angles.npy
 ├── templates
 │   ├── geometry
-│   │   └── base
-│   │       └── pelvic.vtk
-│   └── new_template.mha
+│   └── segmentation 
 └── database
     └── BoneDat
         ├── raw
