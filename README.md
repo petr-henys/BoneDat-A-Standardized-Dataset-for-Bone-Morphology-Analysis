@@ -10,22 +10,6 @@ This repository contains Python scripts and documentation for the [BoneDat proje
 - Anthropometric analysis
 
 This README provides information on setting up the environment, running the scripts, and understanding the project workflow.
-```
-## Project Data Structure
-
-├── additional_data
-├── templates
-│   ├── geometry
-│   └── segmentation 
-└── database
-    └── BoneDat
-        ├── raw
-        └── derived
-            ├── geometries
-            ├── registrations
-            └── segmentations
-
-```
 ## Dependencies
 
 - Python 3.11+ (recommended)
